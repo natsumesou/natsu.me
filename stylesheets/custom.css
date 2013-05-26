@@ -274,21 +274,21 @@ a {
 #twitter-official {
     position: fixed;
     bottom: 13%;
-    right: 50px;
+    right: 180px;
 }
 
 #fb-root {
     position: fixed;
     bottom: 13%;
-    right: -170px;
+    right: -270px;
 }
 
 @media screen and (max-width: 480px) {
     #twitter-official {
-        right: -10px;
+        right: 110px;
     }
     
     #fb-root {
-        right: -240px;
+        right: -335px;
     }
 }
