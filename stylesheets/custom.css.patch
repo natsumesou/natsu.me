@@ -1,0 +1,364 @@
+1,272c1,90
+< body {
+<     font-family: 'Lato', serif;
+<     font-size: 48px;
+<     text-align: center;
+<     width: 100%;
+< }
+< @media screen and (max-width: 480px) {
+<     body {
+<         font-size: 25px;
+<     }
+< }
+< 
+< a {
+<     text-decoration: none;
+< }
+< 
+< hr {
+<     position: fixed;
+<     border-style: solid;
+<     width: 100%;
+<     height: 2px;
+< }
+< 
+< #github {
+<     position: fixed;
+<     top: 0;
+<     border: 0;
+< }
+< 
+< #natsume {
+<     width: 100%;
+<     height: 100%;
+<     position: fixed;
+< }
+< 
+< #twitter {
+<     height: 100%;
+<     width: 100%;
+<     font-size: 2em;
+<     position: fixed;
+<     display: block;
+< }
+< #twitter-bird {
+<     width: 100%;
+<     height: 100%;
+<     left: 0;
+<     position: fixed;
+<     background: url(../images/twitter-birds.png) repeat 0 0;
+< }
+< #twitter-bird2 {
+<     width: 100%;
+<     height: 100%;
+<     left: 0;
+<     position: fixed;
+<     background: url(../images/twitter-birds2.png) repeat 0 0;
+< }
+< #twitter-id {
+<     position: fixed;
+<     color: #1FC2F7;
+< }
+< 
+< #hatenablog {
+<     height: 100%;
+<     width: 100%;
+<     position: fixed;
+<     display: block;
+<     color: rgb(255,255,55);
+< }
+< 
+< #hatenablog .hatena {
+<     position: fixed;
+< }
+< 
+< .night-view {
+<     position: fixed;
+<     bottom: 31px;
+< }
+< 
+< .night-view1 {
+<     left: 10%;
+<     padding: .8em 10px 0;
+< }
+< .night-view2 {
+<     left: 20%;
+<     padding: 1em 10px 0;
+< }
+< .night-view3 {
+<     left: 30%;
+<     padding: .8em 10px 0;
+< }
+< .night-view4 {
+<     left: 40%;
+<     padding: .7em 10px 0;
+< }
+< .night-view5 {
+<     left: 50%;
+<     padding: .6em 10px 0;
+< }
+< .night-view6 {
+<     left: 60%;
+<     padding: .8em 10px 0;
+< }
+< .night-view7 {
+<     left: 70%;
+<     padding: .7em 10px 0;
+< }
+< .night-view8 {
+<     left: 80%;
+<     padding: .8em 10px 0;
+< }
+< .night-view9 {
+<     left: 90%;
+<     padding: .7em 10px 0;
+< }
+< .night-view10 {
+<     left: 11%;
+<     padding: .5em 10px 0;
+< }
+< .night-view11 {
+<     left: 12%;
+<     padding: .3em 20px 0;
+< }
+< .night-view13 {
+<     left: 18%;
+<     padding: .4em 18px 0;
+< }
+< .night-view14 {
+<     left: 23%;
+<     padding: .6em 18px 0;
+< }
+< .night-view15 {
+<     left: 28%;
+<     padding: .5em 10px 0;
+< }
+< .night-view16 {
+<     left: 31%;
+<     padding: .4em 10px 0;
+< }
+< .night-view17 {
+<     left: 32%;
+<     padding: .5em 20px 0;
+< }
+< .night-view18 {
+<     left: 34%;
+<     padding: .3em 15px 0;
+< }
+< .night-view19 {
+<     left: 37%;
+<     padding: .5em 15px 0;
+< }
+< .night-view20 {
+<     left: 38%;
+<     padding: .4em 20px 0;
+< }
+< .night-view21 {
+<     left: 41%;
+<     padding: .4em 20px 0;
+< }
+< .night-view22 {
+<     left: 43%;
+<     padding: .6em 10px 0;
+< }
+< .night-view23 {
+<     left: 45%;
+<     padding: .2em 20px 0;
+< }
+< .night-view24 {
+<     left: 49%;
+<     padding: .4em 15px 0;
+< }
+< .night-view25 {
+<     left: 52%;
+<     padding: .5em 15px 0;
+< }
+< .night-view26 {
+<     left: 53%;
+<     padding: .3em 10px 0;
+< }
+< .night-view27 {
+<     left: 55%;
+<     padding: .4em 20px 0;
+< }
+< .night-view28 {
+<     left: 57%;
+<     padding: .3em 20px 0;
+< }
+<  .night-view29 {
+<     left: 59%;
+<     padding: .5em 10px 0;
+< }
+< .night-view30 {
+<     left: 62%;
+<     padding: .3em 10px 0;
+< }
+< .night-view31 {
+<     left: 63%;
+<     padding: .5em 15px 0;
+< }
+< .night-view32 {
+<     left: 65%;
+<     padding: .4em 15px 0;
+< }
+< .night-view33 {
+<     left: 69%;
+<     padding: .5em 10px 0;
+< }
+< .night-view34 {
+<     left: 73%;
+<     padding: .5em 10px 0;
+< }
+< .night-view35 {
+<     left: 74%;
+<     padding: .3em 20px 0;
+< }
+< .night-view36 {
+<     left: 76%;
+<     padding: .4em 15px 0;
+< }
+< .night-view37 {
+<     left: 81%;
+<     padding: .4em 15px 0;
+< }
+< .night-view38 {
+<     left: 85%;
+<     padding: .4em 15px 0;
+< }
+< .night-view39 {
+<     left: 86%;
+<     padding: .3em 20px 0;
+< }
+< .night-view40 {
+<     left: 89%;
+<     padding: .5em 10px 0;
+< }
+< .night-view41 {
+<     left: 17%;
+<     padding: .5em 20px 0;
+< }
+< 
+< #facebook hr.horizon {
+<     bottom: -48px;
+<     height: 30px;
+< }
+< @media screen and (max-width: 480px) {
+<     .night-view {
+<         bottom: 16px;
+<     }
+<     #facebook hr.horizon {
+<         bottom: -40px;
+<         height: 30px;
+<     }
+< }
+< 
+< #facebook {
+<     height: 100%;
+<     width: 100%;
+<     position: fixed;
+<     display: block;
+<     background-color: rgb(255,255,255);
+< }
+< 
+< #facebook .facebook {
+<     position: fixed;
+<     bottom: 20%;
+<     color: #1CC4F8;
+<     font-size: 2em;
+< }
+< 
+< #facebook hr {
+<     border-color: #1CC4F8;
+<     bottom: 15%;
+< }
+---
+> body {
+>     font-family: 'Lato', serif;
+>     font-size: 48px;
+>     text-align: center;
+>     width: 100%;
+> }
+> @media screen and (max-width: 480px) {
+>     body {
+>         font-size: 25px;
+>     }
+> }
+> 
+> a {
+>     text-decoration: none;
+> }
+> 
+> #github {
+>     position: fixed;
+>     top: 0;
+>     border: 0;
+> }
+> 
+> #natsume {
+>     width: 100%;
+>     height: 100%;
+>     position: fixed;
+> }
+> 
+> #twitter {
+>     height: 100%;
+>     width: 100%;
+>     font-size: 2em;
+>     position: fixed;
+>     display: block;
+> }
+> #twitter-bird {
+>     width: 100%;
+>     height: 100%;
+>     left: 0;
+>     position: fixed;
+>     background: url(../images/twitter-birds.png) repeat 0 0;
+> }
+> #twitter-bird2 {
+>     width: 100%;
+>     height: 100%;
+>     left: 0;
+>     position: fixed;
+>     background: url(../images/twitter-birds2.png) repeat 0 0;
+> }
+> #twitter-id {
+>     position: fixed;
+>     color: #1FC2F7;
+> }
+> 
+> #hatenablog {
+>     height: 100%;
+>     width: 100%;
+>     position: fixed;
+>     display: block;
+>     color: rgb(255,255,55);
+> }
+> 
+> #hatenablog .hatena {
+>     position: fixed;
+> }
+> 
+> #facebook {
+>     height: 100%;
+>     width: 100%;
+>     position: fixed;
+>     display: block;
+>     background-color: rgb(255,255,255);
+> }
+> 
+> #facebook div {
+>     position: fixed;
+>     bottom: 10px;
+>     color: #1CC4F8;
+>     font-size: 2em;
+> }
+> 
+> #facebook hr {
+>     position: fixed;
+>     bottom: 10px;
+>     border-color: #1CC4F8;
+>     height: 2px;
+>     width: 100%;
+>     bottom: -35px;
+>     border-style: solid;
+> }
