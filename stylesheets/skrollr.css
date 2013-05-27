@@ -1,0 +1,386 @@
+body {
+    -skrollr-animation-name: body;
+}
+@-skrollr-keyframes body {
+    500 {
+        background-color: rgb(255, 255, 255);
+}
+800 {
+    background-color: rgb(0, 0, 0);
+}
+2500 {
+    background-color: rgb(0, 0, 0);
+}
+2800 {
+    background-color: rgb(255, 255, 255);
+}
+}
+
+#github {
+    -skrollr-animation-name: github;
+}
+@-skrollr-keyframes github {
+    0 {
+        right: 0px;
+}
+100 {
+    right: 0px;
+}
+300 {
+    right: -400px;
+}
+}
+
+#natsume {
+    -skrollr-animation-name: natsume;
+}
+@-skrollr-keyframes natsume {
+    0 {
+        opacity: 1;
+        top: 100px;
+}
+200 {
+    opacity: 0;
+    top: 0%;
+}
+}
+
+#twitter {
+    -skrollr-animation-name: twitter;
+}
+@-skrollr-keyframes twitter {
+    0 {
+        top: 100%;
+}
+200 {
+    background-color: rgb(255, 255, 255);
+    top: 0%;
+}
+600 {
+    background-color: rgb(255, 135, 0);
+    top: 0%;
+    opacity: 1;
+}
+800 {
+    background-color: rgb(0, 0, 0);
+}
+900 {
+    opacity: 0;
+}
+1000 {
+    top: -100%;
+}
+}
+
+#twitter-bird {
+    -skrollr-animation-name: twitterbird;
+}
+@-skrollr-keyframes twitterbird {
+    200 {
+        background-position: 0px 0px;
+}
+1000 {
+    background-position: 0px -80px;
+}
+}
+
+#twitter-bird2 {
+    -skrollr-animation-name: twitterbird2;
+}
+@-skrollr-keyframes twitterbird2 {
+    200 {
+        background-position: 0px 0px;
+}
+1000 {
+    background-position: 0px -200px;
+}
+}
+
+#twitter-id {
+    -skrollr-animation-name: twitterId;
+}
+@-skrollr-keyframes twitterId {
+    100 {
+        left: 3000px;
+}
+200 {
+    left: 0px;
+    top: 0%;
+}
+300 {
+    color: rgb(0, 0, 0);
+}
+500 {
+    color: rgb(255, 255, 255);
+}
+700 {
+    color: rgb(255, 255, 55);
+}
+800 {
+    top: 0%;
+}
+1000 {
+    top: -100%;
+}
+}
+
+#hatenablog {
+    -skrollr-animation-name: hatenablog;
+}
+@-skrollr-keyframes hatenablog {
+    800 {
+        top: 100%;
+}
+900 {
+    top: 0px;
+}
+2700 {
+    opacity: 1;
+    top: 0%;
+}
+2800 {
+    opacity: 0;
+    top: 0%;
+}
+}
+
+#hatenablog .hatena-h {
+    -skrollr-animation-name: hatenaH;
+}
+@-skrollr-keyframes hatenaH {
+    1100 {
+        bottom: 100%;
+        left: 14%;
+}
+2400 {
+    bottom: 21px;
+}
+}
+
+#hatenablog .hatena-a {
+    -skrollr-animation-name: hatenaA;
+}
+@-skrollr-keyframes hatenaA {
+    1000 {
+        bottom: 100%;
+        left: 22%;
+}
+2450 {
+    bottom: 20px;
+}
+}
+
+#hatenablog .hatena-t {
+    -skrollr-animation-name: hatenaT;
+}
+@-skrollr-keyframes hatenaT {
+    1500 {
+        bottom: 100%;
+        left: 30%;
+}
+2500 {
+    bottom: 21px;
+}
+}
+
+#hatenablog .hatena-e {
+    -skrollr-animation-name: hatenaE;
+}
+@-skrollr-keyframes hatenaE {
+    1200 {
+        bottom: 100%;
+        left: 38%;
+}
+2100 {
+    bottom: 20px;
+}
+}
+
+#hatenablog .hatena-n {
+    -skrollr-animation-name: hatenaN;
+}
+@-skrollr-keyframes hatenaN {
+    1205 {
+        bottom: 100%;
+        left: 46%;
+}
+2300 {
+    bottom: 20px;
+}
+}
+
+#hatenablog .hatena-a2 {
+    -skrollr-animation-name: hatenaA2;
+}
+@-skrollr-keyframes hatenaA2 {
+    1050 {
+        bottom: 100%;
+        left: 54%;
+}
+2400 {
+    bottom: 21px;
+}
+}
+
+#hatenablog .hatena-b {
+    -skrollr-animation-name: hatenaB;
+}
+@-skrollr-keyframes hatenaB {
+    1700 {
+        bottom: 100%;
+        left: 62%;
+}
+2450 {
+    bottom: 20px;
+}
+}
+
+#hatenablog .hatena-l {
+    -skrollr-animation-name: hatenaL;
+}
+@-skrollr-keyframes hatenaL {
+    950 {
+        bottom: 100%;
+        left: 70%;
+}
+2400 {
+    bottom: 20px;
+}
+}
+
+#hatenablog .hatena-o {
+    -skrollr-animation-name: hatenaO;
+}
+@-skrollr-keyframes hatenaO {
+    1350 {
+        bottom: 100%;
+        left: 78%;
+}
+2300 {
+    bottom: 21px;
+}
+}
+
+#hatenablog .hatena-g {
+    -skrollr-animation-name: hatenaG;
+}
+@-skrollr-keyframes hatenaG {
+    1000 {
+        bottom: 110%;
+        left: 86%;
+}
+2400 {
+    bottom: 20px;
+}
+}
+
+#facebook {
+    -skrollr-animation-name: facebook;
+}
+@-skrollr-keyframes facebook {
+    3000 {
+        top: 100%;
+}
+3100 {
+    top: 0%;
+}
+}
+
+#facebook .facebook {
+    -skrollr-animation-name: facebookBtn;
+}
+
+@-skrollr-keyframes facebookBtn {
+    2850 {
+        opacity: 0;
+        right: 10%;
+}
+3100 {
+    opacity: 1;
+    right: 5%;
+}
+}
+
+#facebook .spark-horizon {
+    -skrollr-animation-name: sparkHorizon;
+}
+@-skrollr-keyframes sparkHorizon {
+    2800 {
+        opacity: 0;
+}
+2805 {
+    opacity: 1;
+    right: -100px;
+}
+3000 {
+    right: 1200px;
+    opacity: 1;
+}
+3100 {
+    opacity: 0;
+}
+}
+
+.night-view {
+    -skrollr-animation-name: nightView;
+}
+@-skrollr-keyframes nightView {
+    0 {
+        background-color: rgb(0, 0, 0);
+}
+1000 {
+    background-color: rgb(255, 255, 255);
+}
+2500 {
+    background-color: rgb(255, 255, 255);
+}
+2800 {
+    background-color: rgb(0, 0, 0);
+}
+}
+
+.horizon {
+    -skrollr-animation-name: horizon;
+}
+@-skrollr-keyframes horizon {
+    0 {
+        background-color: rgb(0, 0, 0);
+        border-color: rgb(0, 0, 0);
+}
+1000 {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+2500 {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+2800 {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+}
+
+#twitter-official {
+    -skrollr-animation-name: twitterOfficial;
+}
+@-skrollr-keyframes twitterOfficial {
+    2800 {
+        opacity: 0;
+}
+3000 {
+    opacity: 1;
+}
+}
+
+#fb-root {
+    -skrollr-animation-name: fbRoot;
+}
+@-skrollr-keyframes fbRoot {
+    2800 {
+        opacity: 0;
+}
+3000 {
+    opacity: 1;
+}
+}
