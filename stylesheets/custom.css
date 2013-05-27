@@ -51,6 +51,14 @@ a {
     position: fixed;
     color: #1FC2F7;
 }
+@media screen and (max-width: 480px) {
+    #twitter-bird {
+        background-size: 300px 300px;
+    }
+    #twitter-bird2 {
+        background-size: 300px 300px;
+    }
+}
 
 #hatenablog {
     height: 100%;
