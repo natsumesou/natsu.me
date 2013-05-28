@@ -73,9 +73,9 @@ body {
 }
 
 #twitter-bird {
-    -skrollr-animation-name: twitterbird;
+    -skrollr-animation-name: twitter-bird;
 }
-@-skrollr-keyframes twitterbird {
+@-skrollr-keyframes twitter-bird {
     200 {
         background-position: 0px 0px;
 }
@@ -85,9 +85,9 @@ body {
 }
 
 #twitter-bird2 {
-    -skrollr-animation-name: twitterbird2;
+    -skrollr-animation-name: twitter-bird2;
 }
-@-skrollr-keyframes twitterbird2 {
+@-skrollr-keyframes twitter-bird2 {
     200 {
         background-position: 0px 0px;
 }
@@ -97,9 +97,9 @@ body {
 }
 
 #twitter-id {
-    -skrollr-animation-name: twitterId;
+    -skrollr-animation-name: twitter-id;
 }
-@-skrollr-keyframes twitterId {
+@-skrollr-keyframes twitter-id {
     100 {
         left: 3000px;
 }
@@ -145,9 +145,9 @@ body {
 }
 
 #hatenablog .hatena-h {
-    -skrollr-animation-name: hatenaH;
+    -skrollr-animation-name: hatena-h;
 }
-@-skrollr-keyframes hatenaH {
+@-skrollr-keyframes hatena-h {
     1100 {
         bottom: 100%;
         left: 14%;
@@ -158,9 +158,9 @@ body {
 }
 
 #hatenablog .hatena-a {
-    -skrollr-animation-name: hatenaA;
+    -skrollr-animation-name: hatena-a;
 }
-@-skrollr-keyframes hatenaA {
+@-skrollr-keyframes hatena-a {
     1000 {
         bottom: 100%;
         left: 22%;
@@ -171,9 +171,9 @@ body {
 }
 
 #hatenablog .hatena-t {
-    -skrollr-animation-name: hatenaT;
+    -skrollr-animation-name: hatena-t;
 }
-@-skrollr-keyframes hatenaT {
+@-skrollr-keyframes hatena-t {
     1500 {
         bottom: 100%;
         left: 30%;
@@ -184,9 +184,9 @@ body {
 }
 
 #hatenablog .hatena-e {
-    -skrollr-animation-name: hatenaE;
+    -skrollr-animation-name: hatena-e;
 }
-@-skrollr-keyframes hatenaE {
+@-skrollr-keyframes hatena-e {
     1200 {
         bottom: 100%;
         left: 38%;
@@ -197,9 +197,9 @@ body {
 }
 
 #hatenablog .hatena-n {
-    -skrollr-animation-name: hatenaN;
+    -skrollr-animation-name: hatena-n;
 }
-@-skrollr-keyframes hatenaN {
+@-skrollr-keyframes hatena-n {
     1205 {
         bottom: 100%;
         left: 46%;
@@ -210,9 +210,9 @@ body {
 }
 
 #hatenablog .hatena-a2 {
-    -skrollr-animation-name: hatenaA2;
+    -skrollr-animation-name: hatena-a2;
 }
-@-skrollr-keyframes hatenaA2 {
+@-skrollr-keyframes hatena-a2 {
     1050 {
         bottom: 100%;
         left: 54%;
@@ -223,9 +223,9 @@ body {
 }
 
 #hatenablog .hatena-b {
-    -skrollr-animation-name: hatenaB;
+    -skrollr-animation-name: hatena-b;
 }
-@-skrollr-keyframes hatenaB {
+@-skrollr-keyframes hatena-b {
     1700 {
         bottom: 100%;
         left: 62%;
@@ -236,9 +236,9 @@ body {
 }
 
 #hatenablog .hatena-l {
-    -skrollr-animation-name: hatenaL;
+    -skrollr-animation-name: hatena-l;
 }
-@-skrollr-keyframes hatenaL {
+@-skrollr-keyframes hatena-l {
     950 {
         bottom: 100%;
         left: 70%;
@@ -249,9 +249,9 @@ body {
 }
 
 #hatenablog .hatena-o {
-    -skrollr-animation-name: hatenaO;
+    -skrollr-animation-name: hatena-o;
 }
-@-skrollr-keyframes hatenaO {
+@-skrollr-keyframes hatena-o {
     1350 {
         bottom: 100%;
         left: 78%;
@@ -262,9 +262,9 @@ body {
 }
 
 #hatenablog .hatena-g {
-    -skrollr-animation-name: hatenaG;
+    -skrollr-animation-name: hatena-g;
 }
-@-skrollr-keyframes hatenaG {
+@-skrollr-keyframes hatena-g {
     1000 {
         bottom: 110%;
         left: 86%;
@@ -287,10 +287,10 @@ body {
 }
 
 #facebook .facebook {
-    -skrollr-animation-name: facebookBtn;
+    -skrollr-animation-name: facebook-btn;
 }
 
-@-skrollr-keyframes facebookBtn {
+@-skrollr-keyframes facebook-btn {
     2850 {
         opacity: 0;
         right: 10%;
@@ -302,9 +302,9 @@ body {
 }
 
 #facebook .spark-horizon {
-    -skrollr-animation-name: sparkHorizon;
+    -skrollr-animation-name: spark-horizon;
 }
-@-skrollr-keyframes sparkHorizon {
+@-skrollr-keyframes spark-horizon {
     2800 {
         opacity: 0;
 }
@@ -322,9 +322,9 @@ body {
 }
 
 .night-view {
-    -skrollr-animation-name: nightView;
+    -skrollr-animation-name: night-view;
 }
-@-skrollr-keyframes nightView {
+@-skrollr-keyframes night-view {
     0 {
         background-color: rgb(0, 0, 0);
 }
@@ -362,9 +362,9 @@ body {
 }
 
 #twitter-official {
-    -skrollr-animation-name: twitterOfficial;
+    -skrollr-animation-name: twitter-official;
 }
-@-skrollr-keyframes twitterOfficial {
+@-skrollr-keyframes twitter-official {
     2800 {
         opacity: 0;
 }
@@ -374,9 +374,9 @@ body {
 }
 
 #fb-root {
-    -skrollr-animation-name: fbRoot;
+    -skrollr-animation-name: fb-root;
 }
-@-skrollr-keyframes fbRoot {
+@-skrollr-keyframes fb-root {
     2800 {
         opacity: 0;
 }
