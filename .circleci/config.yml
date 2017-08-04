@@ -1,27 +1,19 @@
 version: 2.0
 
 jobs:
-  build:
-    working_directory: ~/natsu.me
-    machine: true
-    steps:
-      - run:
-          name: none
-          command: echo build
-
   deploy:
     working_directory: ~/natsu.me
     machine: true
     steps:
+      - checkout
       - run:
           name: deploy natsu.me
-          commnad: aws s3 sync public s3://natsu.me.s3-website.ap-northeast-2.amazonaws.com/
+          command: aws s3 sync ~/natsu.me/ s3://natsu.me --region ap-northeast-2 --delete --exclude ".git/*" --exclude ".circleci/*"
 
 workflows:
   version: 2
   build_and_deploy:
     jobs:
-      - build
       - deploy:
           filters:
             branches:
