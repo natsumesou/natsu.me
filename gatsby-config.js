@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'natsu.me',
+    author: 'natsumesou',
+    siteUrl: 'localhost:8000',
   },
   plugins: [
     'gatsby-plugin-styled-components',
@@ -20,6 +22,11 @@ module.exports = {
       },
       __key: 'pages',
     },
-    'gatsby-theme-material-ui',
+    {
+      resolve: `gatsby-plugin-material-ui`,
+      options: {
+        disableAutoprefixing: true,
+      },
+    },
   ],
 }
