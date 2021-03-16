@@ -3,7 +3,11 @@ import * as React from 'react'
 
 // markup
 const Home = () => {
-  return <Box>test</Box>
+  return (
+    <Box>
+      <h1>test</h1>
+    </Box>
+  )
 }
 
 export default Home

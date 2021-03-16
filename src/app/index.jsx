@@ -1,14 +1,14 @@
-import * as React from 'react'
-import { ThemeProvider } from '@material-ui/styles'
-import { Header } from '@/components/organisms/Header'
+import React from 'react'
+import { Box, CssBaseline, styled, ThemeProvider } from '@material-ui/core'
 import { theme } from '../theme'
-import { Box, styled } from '@material-ui/core'
+import { Header } from '@/components/organisms/Header'
 
 const ContentBox = styled(Box)({})
 
 const App = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
+      <CssBaseline />
       <Header />
       <ContentBox>{children}</ContentBox>
     </ThemeProvider>

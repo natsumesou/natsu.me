@@ -5,6 +5,7 @@ module.exports = {
     siteUrl: 'localhost:8000',
   },
   plugins: [
+    'gatsby-plugin-typescript',
     'gatsby-plugin-styled-components',
     {
       resolve: 'gatsby-plugin-google-analytics',
