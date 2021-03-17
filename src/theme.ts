@@ -3,7 +3,7 @@ import { createMuiTheme } from '@material-ui/core/styles'
 const { palette, breakpoints } = createMuiTheme({
   palette: {
     primary: {
-      main: '#0ab7bf',
+      main: '#ffffffff',
       dark: '#078085',
       contrastText: '#ffffff',
     },

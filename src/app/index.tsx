@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, CssBaseline, styled, ThemeProvider } from '@material-ui/core'
-import { theme } from '../theme'
+import { theme } from '@/theme'
 import { Header } from '@/components/organisms/Header'
 
 const ContentBox = styled(Box)({})
